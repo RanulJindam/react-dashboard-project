@@ -1,0 +1,149 @@
+
+
+.container{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+
+
+.outerList{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 550px;
+    background-color: #3d515d;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+}
+.productList{
+    width: 75%;
+    height: 350px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+}
+table{
+    width: 100%;
+    height: 350px;
+    border-collapse: collapse;
+}
+tr{
+    width: 75%;
+    border-top: 2px solid #3d515d;
+    color: white;
+    text-align: center;
+}
+th{
+    background-color: #374c5e;
+    padding: 10px;
+}
+td{
+    background-color: #435c70;
+    padding: 10px;
+    border-top: 2px solid #3d515d;
+}
+.btn{
+    margin: 10px auto;
+    width: 75%;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #f5a623;
+    color: white;
+    border: none;
+}
+.btn:hover{
+    border: 1px solid #f5a623;
+    background-color:#435c70 ;
+    color: #f5a623;
+    transition: all 0.3s ease;
+}
+
+i{
+    cursor: pointer;
+}
+
+
+
+/* =========================== Products Category ==================================== */
+
+.outerCategory{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 350px;
+    background-color: #3d515d;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    margin-right: 50px;
+    color: white;
+}
+.innerCategory {
+    width: 75%;
+    height: 200px;
+    overflow-y: scroll;
+    
+}
+.innerCategory table{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.innerCategory table td {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ================================== Add Products Page ========================================= */
+
+.addProductPage{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #3d515d;
+    align-items: start;
+    justify-content: center;
+    color: white;
+    margin: 50px 0;
+    padding: 10px 0 10px 30px ;
+    
+}
+textarea{
+    background-color: #435c70;
+    border: none;
+    outline: none;
+    width: 150%;
+    height: 100px;
+    color: white;
+    font-size: 16px;
+    margin: 10px 0;
+}
+.addProductPage form input {
+    width: 150%;
+    margin: 10px 0
+}
+select{
+    width: 150%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #435c70;
+    color: white;
+    font-size: 16px;
+}
+.sideBySide{
+    display:  flex;
+    justify-content: space-between;
+}
+.sideBySide div{
+    width: 50%;
+    margin-right: 30px;
+
+}
+.sideBySide div input{
+    width: 85%;
+}

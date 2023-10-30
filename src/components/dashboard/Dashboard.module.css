@@ -1,0 +1,112 @@
+.outerContainer{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: auto;
+}
+
+.flexdiv {
+    margin-bottom: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 30px auto;
+  }
+  .flexdiv div:first-child {
+    margin-right: 10px;
+  }
+  .flexdiv > div {
+    width: 50%;
+  }
+  .innerDiv{
+    margin: 10px;
+    padding: 10px;
+    width: 40%;
+    height: 60vh !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* ======================== Notification =================================== */
+
+  
+  .container {
+    background-color: #3d515d;
+    padding: 10px 50px;
+    width: 100%;
+    overflow-y: scroll;
+    height: 65vh;
+    margin: 20px;
+  }
+  .notificationcontainer {
+    display: flex;
+    background-color: #4e657a;
+    margin-bottom: 20px;
+    padding: 15px 15px 5px;
+  }
+  .notificationcontainer img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-right: 18px;
+  }
+  .notificationcontainer {
+    color: #fff;
+    line-height: 1.5;
+  }
+  .notificationcontainer p span {
+    font-weight: 400;
+    font-size: 90%;
+    line-height: 2.5;
+  }
+  .notificationcontainer p {
+    margin-top: 0px;
+  }
+
+  /* ============================= Orders ================================= */
+
+  .ordercontainer {
+    background-color: #3d515d;
+    padding: 40px;
+    -webkit-box-shadow: 1px 1px 5px 0 #455c71;
+    -moz-box-shadow: 1px 1px 5px 0 #455c71;
+    box-shadow: 1px 1px 5px 0 #455c71;
+    min-height: 250px;
+    height: 80%;
+    max-height: 450px;
+    overflow-y: scroll;
+    margin: 30px auto;
+    width: 70%;
+  }
+  
+  .statustd {
+    position: relative;
+    left: 15px;
+    background-color: #455c71;
+  }
+  .status {
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    border-radius: 100%;
+  }
+  .Moving {
+    background-color: rgb(3, 208, 3);
+    box-shadow: 0px 0px 3px 0.2px rgb(3, 208, 3);
+  }
+  .Pending {
+    background-color: yellow;
+    box-shadow: 0px 0px 3px 0.2px yellow;
+  }
+  .Cancelled {
+    background-color: red;
+    box-shadow: 0px 0px 3px 0.2px red;
+  }
+  .Delivered {
+    background-color: blue;
+    box-shadow: 0px 0px 3px 0.2px blue;
+  }

@@ -1,0 +1,45 @@
+
+.loginbody{
+   height: 60vh;
+   box-sizing: border-box;
+}
+.loginbody form{
+    background-color: #3d515d;
+    width: 450px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin: 100px auto;
+    color: white;
+}
+label{
+    font-size: 18px;
+    padding: 10px 0;
+}
+input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    background-color:#435c70 ;
+    color: white;
+    font-size: 18px;
+}
+.btn{
+    margin: 20px auto;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #f5a623;
+    color: white;
+    border: none;
+}
+.btn:hover{
+    border: 2px solid #f5a623;
+    background-color:#435c70 ;
+    color: #f5a623;
+    transition: all 0.3s ease;
+}

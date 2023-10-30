@@ -1,0 +1,14 @@
+.chartcontainer {
+    padding: 40px;
+    height: 400px;
+    width: 80%;
+    background-color: #3d515d;
+    
+    
+  }
+  canvas,
+  .apexcharts-inner {
+    width: 350px !important;
+    height: 350px !important;
+    margin: 0 auto;
+  }

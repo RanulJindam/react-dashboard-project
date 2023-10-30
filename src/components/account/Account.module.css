@@ -1,0 +1,132 @@
+
+
+.accountContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* =============================== Account List ================================ */
+
+.accList{
+    width: 80%;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3d515d;
+    padding: 20px 5px 50px 50px;
+    margin: 50px;
+}
+.accList select{
+    width: 80%;
+    background-color: #435c70;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #435c70;
+    color: white;
+    font-size: 16px;
+}
+
+
+/* ===================================== Account Data ========================================= */
+
+.accDataContainer{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.accDataImgOuterDiv{
+    width: 30%;
+    background-color: #3d515d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.accDataImgInnerDiv{
+    width: 80%;
+}
+.accDataImgInnerDiv img{
+    width: 100%;
+}
+.accDataImgInnerDiv button{
+    width: 100%;
+}
+.btn{
+    margin: 10px auto;
+    width: 80%;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #f5a623;
+    color: white;
+    border: none;
+}
+.btn:hover{
+    border: 1px solid #f5a623;
+    background-color:#435c70 ;
+    color: #f5a623;
+    transition: all 0.3s ease;
+}
+.accDataOuter{
+    width: 65%;
+    background-color: #3d515d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.accDataInner{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin: 20px;
+}
+.accDataSmallOuterDiv{
+    display: flex;
+    width: 90%;
+    margin: 20px;
+}
+.accDataSmallInnerDiv{
+    width: 50%;
+    margin-right: 20px;
+}
+.accDataSmallInnerDiv input{
+    width: 90%;
+}
+
+.modal {
+    width: 40%;
+    height: 20%;
+    background-color: #435c70;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    position: relative;
+  }
+  .modal h1 {
+    text-transform: capitalize;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+  .modalouter {
+    position: absolute;
+    top: 0px;
+    background: #252525b3;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150vh;
+  }
+  .modal i {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+  }
